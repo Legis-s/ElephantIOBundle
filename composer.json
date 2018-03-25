@@ -1,5 +1,5 @@
 {
-    "name": "legis-s/elephantiobundle",
+    "name": "nc/elephantiobundle",
     "description": "Elephant IO integration in Symfony2",
     "keywords": ["Bundle", "Socket.io", "Elephant.io"],
     "license": "MIT",
