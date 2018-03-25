@@ -29,7 +29,7 @@ class Configuration implements ConfigurationInterface
                             ->scalarNode('version')
                                 ->defaultValue('1.x')
                                 ->validate()
-                                    ->ifNotInArray(array('1.x', '0.x'))
+                                    ->ifNotInArray(array('2.x','1.x', '0.x'))
                                         ->thenInvalid('Invalid version number "%s"')
                                     ->end()
                             ->end()
